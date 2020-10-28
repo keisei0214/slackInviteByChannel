@@ -7,7 +7,7 @@ python run.py <追加先のチャンネル> <追加元のチャンネル>
 どこかにhostして、動かすには、`libs/joinChannelMembers.py`の`joinChannelMembers`に適切な引数を与えて呼び出してください。(引数にはチャンネル名を与えます。idを与える場合は`joinChannelMembersById`)
 
 # 導入方法
-##　A: botをslackに導入
+## A: botをslackに導入
 1. `https://api.slack.com/`にアクセスし、アプリを作成する
 2. 左側のカラムから、`Features`の`OAuth & Permissions`を開く
 3. scopeに`channels:join`, `channels:manage`, `channels:read`を選択する
